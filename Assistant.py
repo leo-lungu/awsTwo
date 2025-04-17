@@ -6,8 +6,8 @@ import datetime
 from utils.chain import chat, clear_memory 
 
 def main():
-    st.set_page_config(page_title="GES D&C Chat", page_icon="assets/chatbotlogocropped.png")
-    LOGO_IMAGE = "assets/chatbotlogocropped.png"
+    st.set_page_config(page_title="GES D&C Chat", page_icon="chatbotlogocropped.png")
+    LOGO_IMAGE = "chatbotlogocropped.png"
 
     # --- UI: Logo and branding ---
     st.markdown("""
